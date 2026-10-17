@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pilchards",
+  "version": "${version}",
+  "name": "Pilchards",
+  "description": "${mod_description}",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/pilchards/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.safesardines.pilchards.fabric.PilchardsFabric"
+    ]
+  },
+  "mixins": [
+    "pilchards.mixins.json"
+  ],
+  "accessWidener": "pilchards.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.20.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.11",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

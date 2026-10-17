@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.safesardines.pilchards.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "BufferSourceMixin",
+    "ElytraLayerMixin",
+    "HumanoidArmorLayerMixin",
+    "ItemRendererMixin",
+    "MultiBufferSourceAccessor",
+    "ThrownTridentRendererMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
